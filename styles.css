@@ -15,13 +15,13 @@ body {
 }
 
 #transparent{
-    height:85vh;
+    height:97vh;
 }
 
 #title1{
     margin: -9rem 0px 0px 0px;
     text-align:center;
-    color: white !important;
+    color: white !important; 
 }
 
 .afiche{
@@ -31,7 +31,7 @@ body {
     margin-top: 1rem;
 }
 
-#posters-section{
+.container{
     background-color: #dcd3b7;
     text-align: center;
     padding: 2rem;
@@ -40,28 +40,10 @@ body {
 }
 
 .cuadro{
-    width: 60%;
+    width: 40%;
     position: relative;
-    left: 20px;
+    left: 10.5rem;
     z-index: 8;
     margin-top: -490px;
     margin-left: 0;
-}
-
-#posters-section img {
-   -webkit-transition: all .3s ease;
-  	-moz-transition: all .3s ease;
-  	-o-transition: all .3s ease;
-  	-ms-transition: all .3s ease;
-  	transition: all .3s ease;
-}
-
-#posters-section img:hover {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform:translateZ(0) scale(1.10);
-    -moz-transform:scale(1.10);
-    -ms-transform:scale(1.10);
-    -o-transform:translatZ(0) scale(1.10);
-    transform:translatZ(0) scale(1.10);
 }
