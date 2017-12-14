@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
 
 body {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #444;
     margin: 0;
     padding: 0;
@@ -14,8 +14,12 @@ body {
     background-size: cover;
 }
 
+h1{
+   font-size: 700%;
+}
+
 #transparent{
-    height:85vh;
+    height:100vh;
 }
 
 #title1{
@@ -44,8 +48,36 @@ body {
     position: relative;
     left: 20px;
     z-index: 8;
-    margin-top: -490px;
+    margin-top: -65%;
     margin-left: 0;
+}
+
+#welcome-square-content{
+   color: white;
+   z-index: 10;
+   position: relative;
+   margin-top: -490px;
+   left: 20px;
+   width: 60%;
+   padding: 50px;
+}
+
+#welcome-square-content button{
+   width: 100%;
+   height: 50px;
+   background: none;
+   border: solid 5px white;
+   border-radius: 0px;
+}
+
+#welcome-square-content button:hover{
+   background: white;
+   color: black
+   border: solid 5px black;
+}
+
+#welcome-square-content button:focus{
+   color: white;
 }
 
 #posters-section img {

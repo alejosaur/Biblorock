@@ -24,16 +24,20 @@
     </div>-->
 
     <div>
-        <div>
+        <div class="container">
             <img class="cuadro" src="https://firebasestorage.googleapis.com/v0/b/biblorock.appspot.com/o/Postit.png?alt=media&token=a2387902-1195-46f5-bcdc-fac3eb0ea7a5">
-            <h1>Biblorock</h1>
-            <div class="row">
-                <div class="col">
-
+            <div  id="welcome-square-content">
+                <h1>Biblorock</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-md-9">
+                        <button type="button" name="button" class="btn" id="login">Iniciar sesión con Google</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" name="button" class="btn">Buscar</button>
+                    </div>
                 </div>
             </div>
-            <button type="button" name="button" class="btn">Iniciar sesión con Google</button>
-            <button type="button" name="button" class="btn">*Lupa*</button>
         </div>
     </div>
 
@@ -109,7 +113,6 @@
         <div class="col-md-3">
             <img src="https://firebasestorage.googleapis.com/v0/b/biblorock.appspot.com/o/Afiches%2F1995.jpg?alt=media&token=ee0d0743-c613-42c8-afcb-5984b6cc6aa7" class="afiche">
         </div>
-        <button id="login">Iniciar con Google</button>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -117,5 +120,6 @@
 			  crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
     <script src="main.js"></script>
+
 </body>
 </html>
