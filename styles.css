@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+body {
+    font-family: 'Anton', sans-serif;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    height:100%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/biblorock.appspot.com/o/IMG_7659-2.JPG?alt=media&token=5a6bf5f1-3294-4e5a-ac53-2f7fe6e9275d");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+}
+
+#transparent{
+    height:97vh;
+}
+
+#title1{
+    margin: -9rem 0px 0px 0px;
+    text-align:center;
+    color: white !important; 
+}
+
+.afiche{
+    width: 90%;
+    align:center;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.container{
+    background-color: #dcd3b7;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 4rem;
+    margin-top: -30px;
+}
+
+.cuadro{
+    width: 40%;
+    position: relative;
+    left: 10.5rem;
+    z-index: 8;
+    margin-top: -490px;
+    margin-left: 0;
+}
